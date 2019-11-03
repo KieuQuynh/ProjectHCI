@@ -1,0 +1,10 @@
+.product_relative {
+  margin-top: 80px;
+  &_title {
+    text-align: center;
+    h2 {
+      font-size: 23px;
+    }
+    margin-bottom: 50px;
+  }
+}

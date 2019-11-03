@@ -1,0 +1,60 @@
+.order_information {
+  margin-top: 30px;
+  &_title {
+    margin-bottom: 20px;
+    h2 {
+      font-size: 20px;
+      margin-bottom: 25px;
+    }
+  }
+  &_table {
+    table {
+      .price,
+      .sub_title {
+        font-weight: 500;
+      }
+      .price {
+        font-size: 17px;
+      }
+      thead {
+        tr {
+          th {
+            padding-left: 0px;
+            font-size: 13px;
+            border: none;
+          }
+        }
+      }
+      tbody {
+        tr {
+          td,
+          th {
+            padding-left: 0px;
+            font-size: 13px;
+            border-top: 1px dotted #c6c6c6;
+            padding-top: 20px;
+            padding-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+  &_submit {
+    .sub {
+      margin-bottom: 40px;
+      span {
+        font-size: 13px;
+      }
+    }
+    button {
+      border-radius: 0px;
+      font-size: 13px;
+      font-weight: 500;
+      padding: 15px 40px;
+      background-color: #000000;
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+}

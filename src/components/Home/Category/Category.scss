@@ -1,0 +1,32 @@
+.home_category {
+  margin-top: 65px;
+  .row {
+    .col-4 {
+      width: 340px;
+      text-align: center;
+      .home_category_img {
+        overflow: hidden;
+        cursor: pointer;
+        img {
+          width: 100%;
+          height: auto;
+          max-width: 100%;
+          transition: transform ease 0.5s;
+          &:hover {
+            transform: scale(1.04);
+            transition: transform ease 0.5s;
+          }
+        }
+      }
+      h6 {
+        margin-top: 25px;
+        cursor: pointer;
+        transition: color ease 0.3s;
+        &:hover {
+          color: #e08686;
+          transition: color ease 0.3s;
+        }
+      }
+    }
+  }
+}

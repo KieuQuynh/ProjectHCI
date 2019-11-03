@@ -1,0 +1,59 @@
+.checkout_form {
+  margin-top: 80px;
+  &_label {
+    h2 {
+      font-size: 20px;
+      margin-bottom: 25px;
+    }
+    label {
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 3px;
+    }
+    input {
+      margin-top: 10px;
+    }
+  }
+  .row {
+    .col-6 {
+      .form {
+        .form-group {
+          label {
+            font-size: 13px;
+          }
+          input {
+            font-size: 13px;
+            height: 55px;
+            border-radius: 0px;
+            &:focus {
+              box-shadow: none;
+              border-color: #000000;
+            }
+          }
+          ::-webkit-input-placeholder {
+            /* Edge */
+            font-size: 13px;
+          }
+
+          :-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            font-size: 13px;
+          }
+
+          ::placeholder {
+            font-size: 13px;
+          }
+          textarea {
+            font-size: 13px;
+            border-radius: 0px;
+            resize: none;
+            &:focus {
+              box-shadow: none;
+              border-color: #000000;
+            }
+          }
+        }
+      }
+    }
+  }
+}

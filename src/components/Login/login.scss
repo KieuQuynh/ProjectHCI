@@ -1,0 +1,249 @@
+.eltdf-login-register-holder {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: rgba(0,0,0,.6);
+    z-index: 1002
+}
+.eltdf-btn.eltdf-btn-solid {
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #000
+}
+.eltdf-btn.eltdf-btn-large {
+    padding: 12px 50px
+}
+
+.eltdf-login-register-holder .eltdf-login-register-content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+.eltdf-login-register-content.ui-tabs {
+    position: relative;
+    margin: 0 auto;
+    width: 530px;
+    background-color: #fff;
+    box-sizing: border-box
+}
+
+.eltdf-login-register-content.ui-tabs.eltdf-user-not-logged-in {
+    width: 600px
+}
+
+.eltdf-login-register-content.ui-tabs.eltdf-user-not-logged-in ul li {
+    width: 33.33%
+}
+
+.eltdf-login-register-content.ui-tabs.eltdf-user-not-logged-in .eltdf-login-content-inner,.eltdf-login-register-content.ui-tabs.eltdf-user-not-logged-in .eltdf-register-content-inner,.eltdf-login-register-content.ui-tabs.eltdf-user-not-logged-in .eltdf-reset-pass-content-inner {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.eltdf-login-register-content.ui-tabs ul {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    clear: both
+}
+
+.eltdf-login-register-content.ui-tabs ul li {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    line-height: 50px;
+    text-align: center;
+    background-color: #efefef
+}
+
+.eltdf-login-register-content.ui-tabs ul li.ui-state-active {
+    background-color: #fff
+}
+
+.eltdf-login-register-content.ui-tabs ul li a {
+    display: block;
+    color: #222;
+    font-size: 13px;
+    line-height: inherit;
+    font-weight: 500;
+    letter-spacing: .14em;
+    text-transform: uppercase
+}
+
+.eltdf-login-register-content.ui-tabs .eltdf-login-content-inner,.eltdf-login-register-content.ui-tabs .eltdf-register-content-inner,.eltdf-login-register-content.ui-tabs .eltdf-reset-pass-content-inner {
+    padding: 55px 55px 59px
+}
+
+.eltdf-login-register-holder.opened .eltdf-login-register-content.ui-tabs .eltdf-login-content-inner,.eltdf-login-register-holder.opened .eltdf-login-register-content.ui-tabs .eltdf-register-content-inner,.eltdf-login-register-holder.opened .eltdf-login-register-content.ui-tabs .eltdf-reset-pass-content-inner {
+    border-bottom: 5px solid #222
+}
+
+.eltdf-login-register-content.ui-tabs .eltdf-lost-pass-remember-holder {
+    display: block
+}
+
+.eltdf-login-register-content.ui-tabs .eltdf-lost-pass-remember-holder .eltdf-login-remember {
+    position: relative;
+    display: block;
+    margin-top: 15px
+}
+
+.eltdf-login-register-content.ui-tabs .eltdf-lost-pass-remember-holder .eltdf-login-remember>* {
+    position: relative;
+    display: inline-block;
+    vertical-align: top
+}
+
+.eltdf-login-register-content.ui-tabs .eltdf-lost-pass-remember-holder label {
+    font-size: 13px;
+    line-height: 13px
+}
+
+.eltdf-login-register-content.ui-tabs .eltdf-lost-pass-remember-holder input {
+    margin: 0 7px 0 0
+}
+
+.eltdf-login-register-content.ui-tabs .eltdf-lost-pass-remember-holder .eltdf-btn {
+    margin: 0
+}
+
+.eltdf-login-register-content.ui-tabs .eltdf-login-action-btn {
+    position: relative;
+    display: block;
+    margin: 11px 0 0;
+    color: #000;
+    font-size: 13px;
+    line-height: 2em;
+    -webkit-transition: color .2s ease-out;
+    -moz-transition: color .2s ease-out;
+    transition: color .2s ease-out
+}
+
+.eltdf-login-register-content.ui-tabs .eltdf-login-action-btn:hover {
+    color: #e08686
+}
+
+.eltdf-login-register-content.ui-tabs input[type=text],.eltdf-login-register-content.ui-tabs input[type=email],.eltdf-login-register-content.ui-tabs input[type=password] {
+    padding: 17px 23px;
+    font-size: 13px;
+    color: #000;
+    border: 1px solid #e5e5e5
+}
+
+.eltdf-login-register-content.ui-tabs .eltdf-register-button-holder .eltdf-btn {
+    margin: 26px 0 0;
+    padding: 10px 54px
+}
+
+.eltdf-login-register-content.ui-tabs .eltdf-login-button-holder {
+    display: block;
+    margin: 33px 0 0
+}
+
+.eltdf-login-register-content.ui-tabs .eltdf-login-button-holder .eltdf-btn.eltdf-btn-solid {
+    margin-top: 12px
+}
+
+.eltdf-login-register-content.ui-tabs .eltdf-login-form-social-login {
+    background-color: #f9f9f9;
+    border-top: 1px solid #ebebeb;
+    padding: 23px 0 34px;
+    margin: 12px 0 0;
+    text-align: center
+}
+
+.eltdf-login-register-content.ui-tabs .eltdf-login-form-social-login .eltdf-login-social-title {
+    margin-bottom: 15px
+}
+
+.eltdf-login-register-content.ui-tabs .eltdf-login-form-social-login form {
+    display: inline-block;
+    margin: 0 5px
+}
+
+.eltdf-login-register-content.ui-tabs .eltdf-login-form-social-login .eltdf-facebook-login,.eltdf-login-register-content.ui-tabs .eltdf-login-form-social-login .eltdf-google-login {
+    padding: 0
+}
+
+.eltdf-login-register-content.ui-tabs .eltdf-login-form-social-login .eltdf-facebook-login .eltdf-btn-text,.eltdf-login-register-content.ui-tabs .eltdf-login-form-social-login .eltdf-google-login .eltdf-btn-text {
+    margin: 0;
+    line-height: 30px;
+    padding: 0 12px 0 10px
+}
+
+.eltdf-login-register-content.ui-tabs .eltdf-login-form-social-login .eltdf-facebook-login .eltdf-btn-icon-holder,.eltdf-login-register-content.ui-tabs .eltdf-login-form-social-login .eltdf-google-login .eltdf-btn-icon-holder {
+    float: left;
+    font-size: 13px;
+    padding: 6px 10px;
+    border-right: 1px solid rgba(255,255,255,.2)
+}
+
+.eltdf-login-register-content.ui-tabs .eltdf-login-form-social-login .eltdf-facebook-login .eltdf-btn-icon-holder .eltdf-btn-icon-elem,.eltdf-login-register-content.ui-tabs .eltdf-login-form-social-login .eltdf-google-login .eltdf-btn-icon-holder .eltdf-btn-icon-elem {
+    vertical-align: baseline
+}
+
+.eltdf-login-register-widget.eltdf-user-not-logged-in {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.eltdf-sidebar .eltdf-login-register-widget.eltdf-user-not-logged-in {
+    width: 100%
+}
+
+.eltdf-login-register-widget.eltdf-user-not-logged-in .eltdf-login-opener {
+    position: relative
+}
+
+.eltdf-login-register-widget.eltdf-user-not-logged-in .eltdf-login-opener .eltdf-login-text {
+    font-size: 0
+}
+
+.eltdf-login-register-widget.eltdf-user-not-logged-in .eltdf-login-opener:before {
+    position: relative;
+    display: inline-block;
+    top: 0;
+    font-family: simple-line-icons;
+    font-weight: 400;
+    content: "\e005";
+    font-size: 18px;
+    vertical-align: middle;
+    color: #414141
+}
+
+.eltdf-login-register-widget.eltdf-user-not-logged-in .eltdf-login-opener:hover,.eltdf-login-register-widget.eltdf-user-not-logged-in .eltdf-login-opener:hover:before {
+    color: #e08686
+}
+.eltdf-social-login-holder input[type=text],.eltdf-social-login-holder input[type=email],.eltdf-social-login-holder input[type=password],.eltdf-social-register-holder input[type=text],.eltdf-social-register-holder input[type=email],.eltdf-social-register-holder input[type=password],.eltdf-social-reset-password-holder input[type=text],.eltdf-social-reset-password-holder input[type=email],.eltdf-social-reset-password-holder input[type=password] {
+    position: relative;
+    width: 100%;
+    margin: 0 0 14px;
+    padding: 12px 20px;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: inherit;
+    color: #333;
+    background-color: transparent;
+    border: 1px solid #000;
+    outline: 0;
+    -webkit-appearance: none;
+    box-sizing: border-box
+}

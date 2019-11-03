@@ -1,0 +1,94 @@
+.product_item {
+  margin-bottom: 40px;
+  .product_img {
+    position: relative;
+    width: 245px;
+    overflow: hidden;
+    margin: auto;
+    img {
+      cursor: pointer;
+      width: 245px;
+      height: 327px;
+      transition: transform ease 0.3s;
+    }
+    .product_option {
+      position: absolute;
+      left: 0px;
+      bottom: 0px;
+      overflow: hidden;
+      width: 0px;
+      display: flex;
+      transition: width 0.3s;
+      &_icon {
+        color: #ffffff;
+        background: #000000;
+        height: 36px;
+        width: 36px;
+        text-align: center;
+        margin-right: 1px;
+        cursor: pointer;
+        i {
+          padding-top: 12px;
+          font-size: 13px;
+        }
+        &:hover {
+          background: #ffffff;
+          color: #000000;
+          transition: all ease 0.5s;
+          i {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+    &:hover {
+      .product_option {
+        width: 74px !important;
+        transition: width 0.3s;
+      }
+      img {
+        transform: scale(1.04);
+        transition: transform ease 0.3s;
+      }
+    }
+  }
+  .product_info {
+    margin-top: 10px;
+    margin-left: 5px;
+    &_name {
+      cursor: pointer;
+      color: #e08686;
+      transition: all ease 0.3s;
+      font-size: 13px;
+      margin-bottom: 0px;
+      &:hover {
+        color: #f3aeae;
+        letter-spacing: 1px;
+        transition: all ease 0.3s;
+      }
+    }
+    &_des {
+      cursor: pointer;
+      font-size: 13px;
+      position: relative;
+      .hr {
+        position: absolute;
+        bottom: 1px;
+        width: 0%;
+        height: 1px;
+        transition: width 0.3s;
+      }
+      &:hover {
+        .hr {
+          width: 100%;
+          background: #e08686;
+          transition: width 0.3s;
+        }
+      }
+    }
+    &_price {
+      font-size: 16px;
+      cursor: pointer;
+    }
+  }
+}

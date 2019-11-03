@@ -1,0 +1,140 @@
+.product_detail {
+  margin-top: 80px;
+  &_img {
+    .col-2 {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    &_small {
+      img {
+        width: 89%;
+        object-fit: cover;
+        cursor: pointer;
+      }
+      margin-bottom: 10px;
+    }
+    &_big {
+      img {
+        width: 100%;
+        object-fit: cover;
+        cursor: pointer;
+      }
+    }
+  }
+  &_des {
+    margin-left: 20px;
+    &_title {
+      line-height: 30px;
+    }
+    &_price {
+      span {
+        font-size: 25px;
+        font-weight: 500;
+      }
+      margin-bottom: 5px;
+    }
+    &_rank {
+      i {
+        margin-right: 5px;
+        font-size: 18px;
+      }
+      margin-bottom: 30px;
+    }
+    &_info {
+      span {
+        font-size: 13px;
+      }
+      margin-bottom: 30px;
+    }
+    &_amount {
+      display: flex;
+      vertical-align: middle;
+      margin-bottom: 30px;
+      .group_action {
+        display: flex;
+        .action {
+          i {
+            font-size: 30px;
+            cursor: pointer;
+            padding-top: 10px;
+          }
+        }
+        .amount {
+          &_number {
+            padding-top: 10px;
+            span {
+              font-size: 20px;
+              margin-left: 20px;
+              margin-right: 20px;
+            }
+          }
+        }
+      }
+      button {
+        height: 50px;
+        border-radius: 0px;
+        font-size: 13px;
+        padding: 0px 40px;
+        font-weight: 500;
+        margin-left: 50px;
+        background-color: #000000;
+        &:focus {
+          box-shadow: none;
+        }
+      }
+    }
+    &_like {
+      margin-bottom: 30px;
+      button {
+        display: flex;
+        border-radius: 0px;
+        height: 50px;
+        font-size: 13px;
+        padding: 0px 40px;
+        font-weight: 500;
+        background-color: #f9e7e7;
+        border-color: #f9e7e7;
+        color: #e88d85;
+        &:hover {
+          background-color: #e88d85;
+          border-color: #e88d85;
+        }
+        &:focus {
+          box-shadow: none;
+        }
+        i {
+          font-size: 30px;
+        }
+      }
+    }
+    &_category {
+      margin-bottom: 20px;
+      &_item {
+        font-size: 13px;
+        margin-bottom: 5px;
+        .title {
+          font-weight: 500;
+        }
+      }
+    }
+    &_hr {
+      height: 1px;
+      width: 70px;
+      border-top: 1px dotted #c6c6c6;
+      margin-bottom: 20px;
+    }
+    &_share {
+      &_info {
+        font-size: 13px;
+        .title {
+          margin-right: 30px;
+        }
+        .icon {
+          margin-right: 15px;
+          padding-right: 15px;
+          border-right: 1px dotted #c6c6c6;
+        }
+      }
+    }
+  }
+}

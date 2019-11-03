@@ -1,0 +1,42 @@
+.products_list {
+  &_filter {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    select.input-lg {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -o-appearance: none;
+      border-radius: 0px;
+      height: 45px;
+      width: 250px;
+      font-size: 13px;
+      cursor: pointer;
+      &:focus {
+        border-color: #bdbcbc;
+        box-shadow: none;
+      }
+      /* no standardized syntax available, no ie-friendly solution available */
+    }
+    select {
+      padding: 5px 12px;
+    }
+    &_results {
+      margin-left: 5px;
+      span {
+        font-size: 13px;
+        line-height: 45px;
+        vertical-align: middle;
+      }
+    }
+    &_type {
+      margin-right: 6px;
+      position: relative;
+      i {
+        position: absolute;
+        right: 14px;
+        top: 16px;
+      }
+    }
+  }
+}

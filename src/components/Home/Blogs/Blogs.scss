@@ -1,0 +1,42 @@
+.home_blog {
+  margin-top: 80px;
+  &_item {
+    &_img {
+      width: 340px;
+      overflow: hidden;
+      img {
+        width: 100%;
+        transition: transform 0.3s;
+        &:hover {
+          transform: scale(1.05);
+          transition: transform 0.3s;
+        }
+      }
+    }
+    &_des {
+      margin-top: 20px;
+      .title {
+        cursor: pointer;
+        transition: color ease 0.3s;
+        &:hover {
+          color: #e08686;
+          transition: color ease 0.3s;
+        }
+      }
+      .info {
+        margin-top: 10px;
+        font-size: 13px;
+        width: 100%;
+      }
+      .see_more {
+        font-size: 10px;
+        font-weight: 500;
+        color: #000000;
+        span {
+          cursor: pointer;
+          border-bottom: solid 1px #e08686;
+        }
+      }
+    }
+  }
+}

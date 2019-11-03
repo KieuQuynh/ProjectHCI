@@ -1,0 +1,42 @@
+.footer {
+  margin-top: 80px;
+  .category {
+    background-color: #f7f7f7;
+    padding-top: 100px;
+    .contact_icon {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+      padding-bottom: 80px;
+      i {
+        margin-right: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+  &_category {
+    display: flex;
+    justify-content: center;
+    &_item {
+      margin-right: 50px;
+      cursor: pointer;
+      h5 {
+        font-size: 16px;
+      }
+      transition: color ease 0.3s;
+      &:hover {
+        color: #e08686;
+        transition: color ease 0.3s;
+      }
+    }
+  }
+  &_info {
+    background: #000000;
+    text-align: center;
+    padding: 30px 0px;
+    span {
+      color: #ffffff;
+      font-size: 13px;
+    }
+  }
+}

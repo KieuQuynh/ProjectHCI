@@ -1,0 +1,53 @@
+.filter {
+  &_input {
+    margin-bottom: 50px;
+    .input-range {
+      margin-top: 20px;
+      margin-left: 8px;
+      margin-right: 8px;
+      width: 239px !important;
+      .input-range__label {
+        display: none;
+      }
+      .input-range__track--active {
+        background: #e0878e;
+      }
+      .input-range__slider {
+        background: #e0878e;
+        border: 1px solid #e0878e;
+      }
+    }
+  }
+  &_number {
+    margin-top: 20px;
+    span {
+      font-size: 13px;
+      line-height: 40px;
+    }
+    button {
+      float: right;
+      border-radius: 0px;
+      font-size: 13px;
+      padding: 10px 20px;
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+  &_category {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px dotted #cccccc;
+    &_item {
+      font-size: 13px;
+      margin-bottom: 5px;
+      cursor: pointer;
+      &:hover {
+        color: #e0878e;
+      }
+    }
+    &_title {
+      margin-bottom: 20px;
+    }
+  }
+}

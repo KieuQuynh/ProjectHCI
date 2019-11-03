@@ -1,0 +1,122 @@
+.cart_detail {
+  margin-top: 80px;
+  margin-bottom: 150px;
+  .price {
+    font-weight: 500;
+    font-size: 17px !important;
+  }
+  table {
+    thead {
+      tr {
+        th {
+          font-size: 13px;
+          border: none;
+        }
+      }
+    }
+    tbody {
+      tr {
+        .pt-50 {
+          padding-top: 50px;
+        }
+
+        .product_img {
+          width: 86px;
+        }
+        .cancel_button {
+          i {
+            cursor: pointer;
+          }
+        }
+        td,
+        th {
+          border-top: 1px dotted #c6c6c6;
+          padding-top: 20px;
+          padding-bottom: 20px;
+        }
+        td {
+          .product_info {
+            display: flex;
+            &_img {
+              img {
+                width: 86px;
+                height: 115px;
+                object-fit: cover;
+              }
+            }
+            &_name {
+              &_content {
+                font-size: 13px;
+                padding-top: 50px;
+              }
+            }
+          }
+          .group_action {
+            padding-top: 40px;
+            display: flex;
+            .action {
+              i {
+                font-size: 25px;
+                cursor: pointer;
+                padding-top: 10px;
+              }
+            }
+            .amount {
+              &_number {
+                padding-top: 8px;
+                span {
+                  font-size: 18px;
+                  margin-left: 20px;
+                  margin-right: 20px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .total_cart {
+    &_title {
+      margin-bottom: 30px;
+      margin-top: 50px;
+      h2 {
+        font-size: 19px;
+      }
+    }
+    &_detail {
+      font-size: 13px;
+      &_item {
+        display: flex;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px dotted #c6c6c6;
+        .title {
+          display: flex;
+          font-weight: 500;
+          width: 150px;
+          span {
+            margin: auto;
+            margin-left: 0px;
+          }
+        }
+        .info {
+          margin-left: 100px;
+          span {
+            line-height: 25px;
+          }
+        }
+      }
+      .submit {
+        margin-top: 50px;
+        button {
+          border-radius: 0px;
+          font-size: 13px;
+          font-weight: 500;
+          padding: 12px 40px;
+          background-color: #000000;
+        }
+      }
+    }
+  }
+}
